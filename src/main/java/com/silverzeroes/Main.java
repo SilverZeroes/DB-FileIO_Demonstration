@@ -9,14 +9,14 @@ public class Main {
 		
 		if (Config.isUsingGUI()) {
 			System.out.println("Entering GUI Mode...");
-			// Implement a Graphical User Interface
 			GUIFrame.start();
 		} else {
 			System.out.println("Entering CLI Mode...");
-			if (Config.isUsingSQL()) {
-				DatabaseHandler.connect();
-			}
-			
+			if (Config.isUsingSQL())
+				CLIPrompt.startSQLServer();
+			else
+				CLIPrompt.startFileRegistry();
+
 		}
 
 	}
