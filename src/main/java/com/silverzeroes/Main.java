@@ -1,6 +1,6 @@
 package com.silverzeroes;
 // Author: Abdullah Al-Hasani
-// This code can be found on my github: https://github.com/SilverZeroes/HospitalDemonstration
+// This code can be found on my github: https://github.com/SilverZeroes/DB-Frontend-Demo/tree/main
 
 public class Main {
 
